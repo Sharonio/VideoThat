@@ -4,7 +4,13 @@
 
 This project was created as part of [DataHack 2019 Israel](https://www.datahack.org.il/).
 
-Contributors:
+![Our Goal](../master/assets/our_goal.jpg)
+
+*********
+
+That's Us
+
+![That's Us!](../master/assets/thats_us.jpg)
 
 Yael Daihes       [GitHub](https://github.com/yooli3)   [LinkedIn](https://www.linkedin.com/in/yael-daihes/)
 
@@ -19,14 +25,7 @@ Dalya Gartzman    [GitHub](https://github.com/DalyaG)   [LinkedIn](https://www.l
 
 *********
 
-That's Us
 
-![That's Us!](../master/assets/thats_us.jpg)
 
-*********
-
-This is Our Goal
-
-![Our Goal](../master/assets/our_goal.jpg)
 
 
