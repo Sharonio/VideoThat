@@ -21,12 +21,12 @@ Dalya Gartzman    [GitHub](https://github.com/DalyaG)   [LinkedIn](https://www.l
 
 That's Us
 
-![That's Us!](../master/assets/thats_us.png)
+![That's Us!](../master/assets/thats_us.jpg)
 
 *********
 
 This is Our Goal
 
-![Our Goal](../master/assets/our_goal.png)
+![Our Goal](../master/assets/our_goal.jpg)
 
 
