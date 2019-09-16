@@ -10,7 +10,7 @@ def silly_segment_matcher(target_segment, length_power=0.75):
         return np.sum(np.dot(seg[:min_length], target_segment[:min_length])) / min_length**length_power
     return silly_match
 
-def build_song_segments(target_song, segments_df, songs_df):
+def build_song_segments(target_song, segments_df, songs_df): # segments_df = all of tailor swift scenes, songs_df = a list of all of tailor's songs in db
     matches = []
     wave_segments = []
     target_remaining_samples = target_song
@@ -39,3 +39,21 @@ def build_song_segments(target_song, segments_df, songs_df):
         segments_df = segments_df.drop(best_match_index)
         wave_segments.append(wave[start_sample : end_sample])
     return matches, np.concatenate(wave_segments)
+
+def main():
+
+    target_song = librosa.load('data/music-from-youtube/Arctic Monkeys - '\
+                    'Do I Wanna Know (Official Video)-bpOSxM0rNPM/Arctic Monkeys - '\
+                    'Do I Wanna Know (Official Video)-bpOSxM0rNPM.webm.mp3')
+    target_song = target_song[0]
+    segments_df = pd.read_pickle('sandbox/song_segments.pkl')
+    onset_strengths = segments_df.segment.apply(librosa.onset.onset_strength)
+    segments_df["onset_envelope"] = onset_strengths
+
+    songs_df = pd.read_pickle('sandbox/taylor_df.pkl')
+    matches, _ = build_song_segments(target_song, segments_df, songs_df)
+    names, starts, ends = list(zip(*matches))
+    matches = pd.DataFrame({'name': names, 'start': starts, 'end': ends})
+    matches.to_pickle('chosen_scenes.pkl')
+if __name__=='__main__':
+    main()

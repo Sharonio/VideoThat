@@ -48,7 +48,7 @@ def save_video(final_video):
     return
 
 def main():
-    chosen_scenes_path = 'arcticmonkeys2.pkl'
+    chosen_scenes_path = 'chosen_scenes.pkl'
     chosen_scenes = pd.read_pickle(chosen_scenes_path)
 
     input_song_path = 'data/music-from-youtube/Arctic Monkeys - '\
