@@ -46,11 +46,11 @@ def main():
                     'Do I Wanna Know (Official Video)-bpOSxM0rNPM/Arctic Monkeys - '\
                     'Do I Wanna Know (Official Video)-bpOSxM0rNPM.webm.mp3')
     target_song = target_song[0]
-    segments_df = pd.read_pickle('sandbox/song_segments.pkl')
+    segments_df = pd.read_pickle('scene_db.pkl')
     onset_strengths = segments_df.segment.apply(librosa.onset.onset_strength)
     segments_df["onset_envelope"] = onset_strengths
 
-    songs_df = pd.read_pickle('sandbox/taylor_df.pkl')
+    songs_df = pd.read_pickle('song_db.pkl')
     matches, _ = build_song_segments(target_song, segments_df, songs_df)
     names, starts, ends = list(zip(*matches))
     matches = pd.DataFrame({'name': names, 'start': starts, 'end': ends})
