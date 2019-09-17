@@ -1,0 +1,5 @@
+MoviePy
+scenedetect
+pandas
+numpy
+librosa
