@@ -3,3 +3,4 @@ scenedetect
 pandas
 numpy
 librosa
+opencv-python
