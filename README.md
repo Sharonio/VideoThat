@@ -6,7 +6,7 @@ This project was created as part of [DataHack 2019 Israel](https://www.datahack.
 *********
 ## Installation
 currently supports linux
-##### clone VideoThat! repository to your file system
+##### clone VideoThat repository to your file system
 
 
 #### System requirements
