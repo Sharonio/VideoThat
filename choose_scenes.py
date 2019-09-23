@@ -42,8 +42,7 @@ def build_song_segments(target_song, segments_df, songs_df): # segments_df = all
 
 def main():
 
-    target_song = librosa.load('data/music-from-youtube/Arctic Monkeys - '\
-                    'Do I Wanna Know (Official Video)-bpOSxM0rNPM/Arctic Monkeys - '\
+    target_song = librosa.load('Arctic Monkeys - '\
                     'Do I Wanna Know (Official Video)-bpOSxM0rNPM.webm.mp3')
     target_song = target_song[0]
     segments_df = pd.read_pickle('scene_db.pkl')
