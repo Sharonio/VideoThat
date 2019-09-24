@@ -106,3 +106,8 @@ venv.bak/
 .mypy_cache/
 
 .idea/*
+
+*.pkl
+*.mp4
+*.mp3
+archive.txt
