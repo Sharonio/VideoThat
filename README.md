@@ -13,7 +13,6 @@ This project was created as part of [DataHack 2019 Israel](https://www.datahack.
 ## Code structure
 
 ![Code structure](../master/assets/VideoThat_code_structure.jpg)
-
 *********
 ## Installation
 
