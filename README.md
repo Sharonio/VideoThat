@@ -3,6 +3,10 @@
 ## Automagically Generate a Music Video for Your Input Audio
 
 This project was created as part of [DataHack 2019 Israel](https://www.datahack.org.il/).
+
+Code structure
+![Code structure](../master/assets/VideoThat_code_structure.jpg)
+
 *********
 ## Installation
 
