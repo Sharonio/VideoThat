@@ -2,9 +2,16 @@
 
 ## Automagically Generate a Music Video for Your Input Audio
 
+2nd place DataHack winner 🥈, September 2019
+
+VideoThat will automagically generate the perfect video compilation that fits impeccably to the theme song of your choice. The algorithm’s default choice is to create a video clip from Taylor Swift’s videos to an Arctic Monkey song.
+
 This project was created as part of [DataHack 2019 Israel](https://www.datahack.org.il/).
 
-Code structure
+
+
+## Code structure
+
 ![Code structure](../master/assets/VideoThat_code_structure.jpg)
 
 *********
@@ -35,6 +42,8 @@ pip3 install --upgrade youtube-dl
 *****
 #### Create Data-Base (db) of video clips
 To start downoading all of the videoclips and create a data-base, open the terminal go to the repository location and write
+
+note: the following command will download ~1.5GB to your directory and can take a while
 ```shell
 ./download-db.sh
 ```
