@@ -8,11 +8,7 @@ VideoThat will automagically generate the perfect video compilation that fits im
 
 This project was created as part of [DataHack 2019 Israel](https://www.datahack.org.il/).
 
-
-
-## Code structure
-
-![Code structure](../master/assets/VideoThat_code_structure.jpg)
+![The algorithm](../master/assets/anim.gif)
 *********
 ## Installation
 
@@ -67,7 +63,9 @@ python3 build_video.py
 ```
 #### The video `videoThat.mp4` has been successfully created and added to your directory 
 *******
-![The algorithm](../master/assets/anim.gif)
+## Code structure
+
+![Code structure](../master/assets/VideoThat_code_structure.jpg)
 
 *********
 
