@@ -39,6 +39,8 @@ Install the newest version of youtube-dl
 pip3 install --upgrade youtube-dl
 ```
 *****
+## Code pipeline
+
 #### Create Data-Base (db) of video clips
 To start downoading all of the videoclips and create a data-base, open the terminal go to the repository location and write
 
