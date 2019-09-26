@@ -67,7 +67,7 @@ python3 build_video.py
 ```
 #### The video `videoThat.mp4` has been successfully created and added to your directory 
 *******
-![Our Goal](../master/assets/our_goal.jpg)
+![The algorithm](../master/assets/anim.gif)
 
 *********
 
