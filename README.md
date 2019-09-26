@@ -12,7 +12,7 @@ This project was created as part of [DataHack 2019 Israel](https://www.datahack.
 *********
 ## Installation
 
-##### clone VideoThat repository to your file system
+##### Fork VideoThat repository to your file system
 
 
 #### System requirements
