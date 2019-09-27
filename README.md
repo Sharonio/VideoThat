@@ -6,7 +6,7 @@
 
 VideoThat will automagically generate the perfect video compilation that fits impeccably to the theme song of your choice. The algorithm’s default choice is to create a video clip from Taylor Swift’s videos to an Arctic Monkey song.
 
-This project was created as part of [DataHack 2019 Israel](https://www.datahack.org.il/).
+This project was created as part of [DataHack 2019 Israel](https://www.datahack.org.il/), read all about it in our [blog post](https://www.meimadix.com/posts/videothat.html) 👾
 
 ![The algorithm](../master/assets/anim.gif)
 *********
