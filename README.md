@@ -85,3 +85,7 @@ Dalya Gartzman    [GitHub](https://github.com/DalyaG)   [LinkedIn](https://www.l
 
 
 *********
+
+P.S.
+
+Our prise money was donated to [TAMI - Tel Aviv Makers Isocratic hackerspace](https://telavivmakers.org/index.php/Main_Page) 
