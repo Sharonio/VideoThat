@@ -34,8 +34,12 @@ def assemble_video(videoclips, chosen_scenes, input_song):
     for index, row in chosen_scenes.iterrows():
         v_time = [row.start, row.end]
         v = videoclips[row['name']]
+        speed = getattr(row, 'speed', 1)
+        print(speed)
 
-        final_visuals.append(v.subclip(*v_time).resize(width=720, height = 406))   #TODO: we force height to be even, this is all hardcoded :()
+        final_visuals.append(v.subclip(*v_time)
+                              .resize(width=720, height = 406)
+                              .fx(mpy.vfx.speedx, speed))   #TODO: we force height to be even, this is all hardcoded :()
     
     # visuals & audio:
     final_video = mpy.concatenate_videoclips(final_visuals, method='compose')
